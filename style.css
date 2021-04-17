@@ -1,8 +1,20 @@
+/*CSS styling of various elements here*/
+
 #welcome {
     background-image: url(mountains.jpg);
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+nav {
+    background-color: #B4E2F7;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
 }
 
 .nav-item {
@@ -12,4 +24,46 @@
 #about_me {
     background-image: url(sky.jpg);
     background-size: cover;
+}
+
+
+/*Styling ends here*/
+
+
+/*Adding the hover effect in the dropdown list*/
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+/*Formatting logos here*/
+
+
+/*Code for logos taken from w3Schools*/
+
+.fa {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    margin-top: 5px;
+}
+
+
+/* Adding a hover */
+
+.fa:hover {
+    opacity: 0.7;
+    color: gray;
+    text-decoration: none;
 }
