@@ -1,0 +1,15 @@
+#welcome {
+    background-image: url(mountains.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.nav-item {
+    margin: 10px;
+}
+
+#about_me {
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
