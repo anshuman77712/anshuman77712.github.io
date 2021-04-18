@@ -26,8 +26,6 @@ nav {
     background-size: cover;
 }
 
-.container {}
-
 
 /*Styling ends here*/
 
@@ -44,10 +42,16 @@ nav {
 }
 
 
-/*Formatting logos here*/
+/*Hover effects end here*/
 
 
-/*Code for logos taken from w3Schools*/
+/*Using font awesome icons*/
+
+
+/*Formatting icons here*/
+
+
+/*Code for icons taken from w3Schools*/
 
 .fa {
     padding: 15px;
@@ -70,7 +74,7 @@ nav {
 }
 
 
-/*Trying footer one*/
+/*Styling of footer*/
 
 .footer-bs {
     background-color: #63C5DA;
@@ -185,6 +189,9 @@ nav {
     color: rgba(255, 255, 255, 0.70);
 }
 
+
+/*Optimizing the footer for proper rendering in mobile device*/
+
 @media (min-width: 768px) {
     .footer-bs .footer-nav,
     .footer-bs .footer-social,
@@ -192,3 +199,6 @@ nav {
         border-left: solid 1px rgba(255, 255, 255, 0.10);
     }
 }
+
+
+/*Footer styling ends here*/
